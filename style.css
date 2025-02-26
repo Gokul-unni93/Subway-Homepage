@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    border: border-box;
+    font-family: Roboto, sans-serif;
+}
+.navbar{
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 77px;
+    position: fixed;
+    display: flex;
+    z-index: 1200;
+    align-items: center;
+    background-color: rgb(231, 237, 237);
+    
+}
+.main-logo{
+    
+    height: 70.95px;
+    margin-left: 32px;
+    margin-top: 16px;
+}
+.selection-container{
+    display: flex;
+    align-items: center;
+    padding-left: 710px;
+    padding-top: 25px;
+    color: rgb(0, 137, 56);
+    gap: 30px;
+}
+.selection-tab{
+margin-left: 10px;
+height: 33.4px;
+cursor: pointer;
+
+}
+.talk{
+    position: relative;
+    right: -40px;
+   
+    height: 38.5px;
+    
+    border: none;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 125, 50);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+}
+.talk:hover{
+    background-color:rgb(8, 99, 46);
+}
+
+.bgImage{
+    margin-top: 70.95px;
+    width: 100%;
+    height: 729.6px;
+    background-image: url(Images/BGIMage.webp);
+    background-size: cover;
+    z-index: 0;
+}
+.sideNote{
+    margin-left: 70px;
+    padding-top: 10px;
+}
+.delivery{
+    width: 174px;
+    height: 143px;
+    margin-left: 70px;
+   
+   
+}
+.delivery-fix{
+    width: 128px;
+    height: 27px;
+    padding-left: 12px;
+    padding-top: 11px;
+    cursor: pointer;
+}
+.yellowLine{
+    margin-left: 13px;
+    border-top: 1.5px solid #f9ce62;
+    margin-top: 12px;
+    width: 143px;
+}
+.container-one{
+    width: 100%;
+    height: 270px;
+    background-color: #008938;
+}
+.moreInfo{
+    width: 1490px;
+    height: 110px;
+    padding-top: 20px;
+    gap: 151.69px;
+    display: flex;
+    color: white;
+    
+    margin-left: 14px;
+    
+}
+.csEmail{
+    width: 160.24px;
+    height: 109.2px;
+   
+}
+.csEmailID{
+    font-size: 14px;
+    color: #f2b700;
+}
+.csEmailID:hover{
+    cursor: pointer;
+}
+.container-two{
+    width: 795.68px;
+    height: 109.2px;
+    display: flex;
+    gap: 126.65px;
+}
+.csContact{
+    width: 94.93px;
+    height: 109.2px;
+    padding-left: 100px;
+   
+}
+.contact-title{
+    color: #f2b700;
+    font-size: 18px;
+}
+.subInfo{
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0px opx 5px;
+}
+
+.vendorEmail{
+    width: 229.9px;
+    height: 109.2px;
+  
+}
+.sm-logo{
+    position: absolute;
+    right: 20px;
+    top: 780px;
+    width: 38px;
+}
+.footer-Line{
+    margin-left: 89px;
+    border-top: 2.2px solid #fff;
+    margin-top: 47px;
+    width: 88%;
+}
+.abt-Us{
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.copyRight{
+ 
+    color: #fff;
+    font-size: 14px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
